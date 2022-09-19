@@ -1,0 +1,27 @@
+Algoritma Vacation_Planning
+
+STORE "Package" INTEGER WITH 0
+STORE "Output Detail" with "Package"
+PRINT "Output Detail"
+
+BEGIN
+WRITE ("Looking For The Destination Package:
+Package 1: Day-1 To Bangkok By Plane; Day-2 Travel To Market; Day-3 Free Time or Visit local shrine; Day-4 Return To Jakarta
+Package 2: Day-1 To Bangkok By Ship; Day-2 Travel To Market; Day-3 Stay at The Ship or Visit local shrine; Day-4 Return To Jakarta")
+READ (Package)
+	IF (Package = 1)
+		WRITELN ("Detailing Package Destination.
+		Package 1: Day-1 To Bangkok By Plane; Day-2 Travel To Market; Day-3 Free Time or Visit local shrine; Day-4 Return To Jakarta.
+		IDR 2.500.000")
+		WRITE ("Input Biodata")
+		PRINT (OUTPUT DETAIL)
+	ELSE IF (Package = 2)
+		WRITE ("Detailing Package Destination.
+		Package 2: Day-1 To Bangkok By Ship; Day-2 Travel To Market; Day-3 Stay at The Ship or Visit local shrine; Day-4 Return To Jakarta.
+		IDR 2.800.000")
+		WRITE ("Input Biodata")
+		PRINT (OUTPUT DETAIL)
+	ELSE (Package !=1 && !=2)
+		WRITE ("Masukkan Salah")
+		PRINT (OUTPUT DETAIL)
+END
